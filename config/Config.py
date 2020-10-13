@@ -541,7 +541,7 @@ class Config(object):
 
 					plt.plot(pr_x, pr_y, lw=2, label=str(epoch))
 					plt.legend(loc="upper right")
-					plt.savefig(os.path.join("fig_result", model_name))
+					plt.savefig(os.path.join("../fig_result", model_name))
 
 		print("Finish training")
 		print("Best epoch = %d | auc = %f" % (best_epoch, best_auc))
